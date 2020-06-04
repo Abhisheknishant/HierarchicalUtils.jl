@@ -20,10 +20,6 @@ notifications:
 git:
   depth: false
 
-jobs:
-  allow_failures:
-    - julia: nightly
-    - arch: arm64
 
 env:
   global:
